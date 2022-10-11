@@ -1,5 +1,4 @@
 #include <iostream>
- //Zakaria Kortam ENGR 50 - Homework CH1B 
 using namespace std;
 int main( )
     {
@@ -43,6 +42,5 @@ int main( )
     cout <<"Access granted. Launch code approved. \n" ;
     cout <<"Initiating launch \n \a";
     cout <<"Launch Successful. Program end. \n";
-    // Sorry, i had a bit too much fun, but i think that this is super cool and it fulfilled the assignment requirements.
 return 0;
    }
