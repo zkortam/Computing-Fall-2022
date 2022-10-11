@@ -1,0 +1,48 @@
+#include <iostream>
+ //Zakaria Kortam ENGR 50 - Homework CH1B 
+using namespace std;
+int main( )
+    {
+    int alien_count,  planet_count,  alien_planet_ratio, life_matter, next;
+    //i would float it if possible. 
+    cout << "Hello Universe \n";
+    cout << " Press return after entering a number. \n" ;
+    cout << " Enter how many alien species you think exist: \n" ;
+    cin >> alien_count;
+    cout << " Enter how many planets you think aliens exist on \n" ;
+    cin >> planet_count;
+   alien_planet_ratio = alien_count * 1/planet_count;
+   life_matter = alien_count + planet_count;
+   next = rand() ;
+    cout << " If you have " ;
+    cout << planet_count ;
+    cout << "  planets with alien life \n" ;
+    cout << " and ";
+    cout << alien_count;
+    cout << "  aliens in the universe,  then\n" ;
+    cout << " you have " ;
+    cout << alien_planet_ratio;
+    cout << "  aliens for every inhabitable planet. \n" ;
+    cout << " In addition, there are " ;
+    cout << life_matter;
+    cout << " instances of life or life-relevant matter outside of Earth. \n" ;
+    cout << "    \n" ;
+    cout << "     \n" ;
+    cout << "Human responses detected. Please enter access code: \n" ;
+    cout << (" ");
+    cin >> next;
+    cout <<"Extraterrestrial data acquired. \n";
+    cout <<"Transporting data to Betelgeuse. \n";
+    cout <<"Data Transfer complete \n";
+     cout << "    \n" ;
+    cout << "     \n" ;
+    cout << "Please enter the interstellar megaweapon launch code: \n" ;
+     cout << "    \n" ;
+    cout << "     \n" ;
+     cin >> next;
+    cout <<"Access granted. Launch code approved. \n" ;
+    cout <<"Initiating launch \n \a";
+    cout <<"Launch Successful. Program end. \n";
+    // Sorry, i had a bit too much fun, but i think that this is super cool and it fulfilled the assignment requirements.
+return 0;
+   }
